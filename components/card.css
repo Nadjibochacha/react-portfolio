@@ -1,0 +1,49 @@
+.card{
+    box-shadow: 0 0 15px rgb(248, 217, 15);
+    background:#000000aa;
+    color: white;
+    z-index: 2;
+}
+.card .title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.card .txt{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    line-height: 1.2rem;
+   
+}
+.card .btn-yallow {
+  color: black;
+  border: solid 1.5px whitesmoke;
+  border-radius: 8px;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  font-weight: 600;
+  transition: all 0.4s ease-in;
+  font-size: 1.1rem;
+  padding: 7px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card .btn-yallow:hover {
+  transform: scale(1.15);
+  background: rgba(196, 170, 2, 0.664);
+  color: white;
+}
+
+.card .txt ul{
+  list-style: none;
+  transform: translateX(-7%);
+  
+}
+.card .txt li{
+  margin: 7px 0;
+} 
